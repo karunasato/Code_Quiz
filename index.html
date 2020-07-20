@@ -10,16 +10,20 @@
 <body>
    <h1>Code Quiz!</h1>
    <div class="container">
-       <div id="timer">5:00</div>
-
-       <section>
-           <div id="questions">00</div>
-           <button id="A">A</button>
-           <button id="B">B</button>
-           <button id="C">C</button>
-           <button id="D">D</button>
-       </section>
-
+    <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">A</button>
+            <button class="btn">B</button>
+            <button class="btn">C</button>
+            <button class="btn">D</button>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>    
+    </div>
+         
+       
    </div>
 </body>
 </html>

@@ -42,3 +42,7 @@ let questions = [
 
     }
 ];
+
+function get(i){
+    return document.getElementById(i)
+}
