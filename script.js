@@ -21,7 +21,7 @@ Quiz.prototype.getQuestionIndex = function(){
     return this.questions[this.questionIndex];
 }
 
-Quiz.prototype.isEnded = function(){
+Quiz.prototype.end = function(){
     return this.questions.length === this.questionIndex;
 }
 
@@ -36,7 +36,7 @@ Quiz.prototype.guess = function(answer){
 //function to populate question
 
 function populate(){
-    if(quiz.isEnded()){
+    if(quiz.end()){
         showsScores();
     }
 
