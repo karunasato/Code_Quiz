@@ -95,7 +95,7 @@ let quiz = new Quiz(questions);
 populate();
 
 // timer
-const startingMinutes = 3;
+const startingMinutes = 2;
 let time = startingMinutes * 60;
 const countdownEl = document.getElementById("timer");
 
